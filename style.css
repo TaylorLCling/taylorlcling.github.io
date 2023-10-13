@@ -1,0 +1,64 @@
+body {
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header and footer styling */
+
+.header, .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    font-style: italic;
+}
+
+/* content styling */
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.content p, .content h3, img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* navigation bar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#curr-page li a {
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: red;
+}
