@@ -6,6 +6,8 @@
 
 .index-images img {
     height: 250px;
+    margin: 0 auto;
+    display: flex;
 }
 
 ul {
